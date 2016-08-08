@@ -1,0 +1,12 @@
+Source: ros-jade-pr2-kinematics
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-pr2-kinematics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-pr2-arm-kinematics
+Description: The pr2_kinematics package
