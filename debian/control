@@ -1,0 +1,13 @@
+Source: ros-jade-pr2-arm-kinematics
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-angles, ros-jade-catkin, ros-jade-cmake-modules, ros-jade-geometry-msgs, ros-jade-kdl-parser, ros-jade-moveit-core, ros-jade-moveit-msgs, ros-jade-pluginlib, ros-jade-roscpp, ros-jade-tf-conversions, ros-jade-urdf
+Homepage: http://ros.org/wiki/pr2_arm_kinematics
+Standards-Version: 3.9.2
+
+Package: ros-jade-pr2-arm-kinematics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-angles, ros-jade-geometry-msgs, ros-jade-kdl-parser, ros-jade-moveit-core, ros-jade-moveit-msgs, ros-jade-pluginlib, ros-jade-roscpp, ros-jade-tf-conversions, ros-jade-urdf
+Description: This package provides a kinematics implementation for the PR2 robot.
+ It can be used to compute forward and inverse kinematics.
