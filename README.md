@@ -1,3 +1,28 @@
+## pr2_kinematics (lunar) - 1.0.9-0
+
+The packages in the `pr2_kinematics` repository were released into the `lunar` distro by running `/usr/bin/bloom-release -y pr2_kinematics --track lunar --rosdistro lunar` on `Wed, 29 Aug 2018 13:43:54 -0000`
+
+These packages were released:
+- `pr2_arm_kinematics`
+- `pr2_kinematics`
+
+Version of package(s) in repository `pr2_kinematics`:
+
+- upstream repository: https://github.com/PR2/pr2_kinematics.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.9-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.7`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## pr2_kinematics (kinetic) - 1.0.9-0
 
 The packages in the `pr2_kinematics` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release pr2_kinematics --rosdistro kinetic --track kinetic` on `Wed, 14 Feb 2018 12:31:48 -0000`
