@@ -1,0 +1,13 @@
+Source: ros-lunar-pr2-arm-kinematics
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-angles, ros-lunar-catkin, ros-lunar-cmake-modules, ros-lunar-geometry-msgs, ros-lunar-kdl-parser, ros-lunar-moveit-core, ros-lunar-moveit-msgs, ros-lunar-pluginlib, ros-lunar-roscpp, ros-lunar-tf-conversions, ros-lunar-urdf
+Homepage: http://ros.org/wiki/pr2_arm_kinematics
+Standards-Version: 3.9.2
+
+Package: ros-lunar-pr2-arm-kinematics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-angles, ros-lunar-geometry-msgs, ros-lunar-kdl-parser, ros-lunar-moveit-core, ros-lunar-moveit-msgs, ros-lunar-pluginlib, ros-lunar-roscpp, ros-lunar-tf-conversions, ros-lunar-urdf
+Description: This package provides a kinematics implementation for the PR2 robot.
+ It can be used to compute forward and inverse kinematics.
