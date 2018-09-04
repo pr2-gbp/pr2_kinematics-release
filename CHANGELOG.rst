@@ -2,6 +2,9 @@
 Changelog for package pr2_kinematics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.10 (2018-08-30)
+-------------------
+
 1.0.9 (2018-02-14)
 ------------------
 * Merge pull request `#11 <https://github.com/pr2/pr2_kinematics/issues/11>`_ from k-okada/orp2
