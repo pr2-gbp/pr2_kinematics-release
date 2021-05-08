@@ -1,3 +1,28 @@
+## pr2_kinematics (noetic) - 1.0.11-1
+
+The packages in the `pr2_kinematics` repository were released into the `noetic` distro by running `/usr/bin/bloom-release pr2_kinematics --rosdistro noetic --track noetic` on `Sat, 08 May 2021 08:43:30 -0000`
+
+These packages were released:
+- `pr2_arm_kinematics`
+- `pr2_kinematics`
+
+Version of package(s) in repository `pr2_kinematics`:
+
+- upstream repository: https://github.com/PR2/pr2_kinematics.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.11-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## pr2_kinematics (lunar) - 1.0.10-0
 
 The packages in the `pr2_kinematics` repository were released into the `lunar` distro by running `/usr/bin/bloom-release -y pr2_kinematics --rosdistro lunar --track lunar` on `Tue, 04 Sep 2018 02:14:32 -0000`
