@@ -1,0 +1,13 @@
+Source: ros-noetic-pr2-arm-kinematics
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-angles, ros-noetic-catkin, ros-noetic-cmake-modules, ros-noetic-geometry-msgs, ros-noetic-kdl-parser, ros-noetic-moveit-core, ros-noetic-moveit-msgs, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-tf-conversions, ros-noetic-urdf
+Homepage: http://ros.org/wiki/pr2_arm_kinematics
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-arm-kinematics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-angles, ros-noetic-geometry-msgs, ros-noetic-kdl-parser, ros-noetic-moveit-core, ros-noetic-moveit-msgs, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-tf-conversions, ros-noetic-urdf
+Description: This package provides a kinematics implementation for the PR2 robot.
+ It can be used to compute forward and inverse kinematics.
